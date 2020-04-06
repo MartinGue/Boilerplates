@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 
-class Trades extends Component {
+class Boiler extends Component {
   render() {
 	return (
 		<div className="card bg-dark text-white">
@@ -23,4 +23,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps)(Trades)
+export default connect(mapStateToProps)(Boiler)
